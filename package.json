@@ -1,0 +1,78 @@
+{
+  "name": "loopback-component-passport-refresh",
+  "description": "LoopBack passport integration to support third party logins and account linking plus fresh token",
+  "keywords": [
+    "StrongLoop",
+    "LoopBack",
+    "social",
+    "login",
+    "security"
+  ],
+  "homepage": "https://github.com/agungf/loopback-component-passport",
+  "version": "1.6.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "rfeng",
+      "email": "enjoyjava@gmail.com"
+    },
+    {
+      "name": "ritch",
+      "email": "skawful@gmail.com"
+    },
+    {
+      "name": "strongloop",
+      "email": "callback@strongloop.com"
+    },
+    {
+      "name": "bajtos",
+      "email": "miro.bajtos@gmail.com"
+    },
+    {
+      "name": "agungf",
+      "email": "agungfirdaus@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/agungf/loopback-component-passport/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/agungf/loopback-component-passport.git"
+  },
+  "dependencies": {
+    "passport": "^0.2.1",
+    "underscore": "^1.8.2",
+    "passport-oauth2-refresh": "^0.4.0"
+  },
+  "peerDependencies": {
+    "loopback": "2.x || 1.x >=1.8.0"
+  },
+  "devDependencies": {
+    "loopback": "^2.14.0",
+    "mocha": "^2.2.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec --timeout 10000 test/*.js"
+  },
+  "main": "./lib/index.js",
+  "license": "Artistic-2.0",
+  "gitHead": "aa0ccab8040ea91ea48d03c93c8dbdd6dd5aa258",
+  "_id": "loopback-component-passport-refresh@1.6.0",
+  "_shasum": "a619cccfb6cba428e6591ca677b0909da6955df8",
+  "_from": "loopback-component-passport-refresh@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "rfeng",
+    "email": "enjoyjava@gmail.com"
+  },
+  "dist": {
+    "shasum": "57adc8919fb91784f602ed5891f7121dd25cc42f",
+    "tarball": "http://registry.npmjs.org/loopback-component-passport-refresh/-/loopback-component-passport-refresh-1.6.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/loopback-component-passport-refresh/-/loopback-component-passport-refresh-1.6.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
